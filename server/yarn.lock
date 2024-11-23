@@ -12006,7 +12006,6 @@ __metadata:
   dependencies:
     "@medusajs/admin-sdk": "npm:latest"
     "@medusajs/cli": "npm:latest"
-    "@medusajs/file-s3": "npm:^2.0.4"
     "@medusajs/framework": "npm:latest"
     "@medusajs/medusa": "npm:latest"
     "@medusajs/test-utils": "npm:latest"
