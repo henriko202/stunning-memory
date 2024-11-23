@@ -3091,7 +3091,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/modules-sdk@npm:^2.0.4":
+"@medusajs/modules-sdk@npm:^2.0.1, @medusajs/modules-sdk@npm:^2.0.4":
   version: 2.0.4
   resolution: "@medusajs/modules-sdk@npm:2.0.4"
   dependencies:
@@ -3412,7 +3412,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/utils@npm:2.0.4, @medusajs/utils@npm:^2.0.4":
+"@medusajs/utils@npm:2.0.4, @medusajs/utils@npm:^2.0.1, @medusajs/utils@npm:^2.0.4":
   version: 2.0.4
   resolution: "@medusajs/utils@npm:2.0.4"
   dependencies:
@@ -6397,6 +6397,19 @@ __metadata:
   version: 1.13.1
   resolution: "@remix-run/router@npm:1.13.1"
   checksum: 10c0/2f8c213dd0f1ebc0c2c1357badf6e1a65a42c40d38558f5e5085fbe7b144439eb326955d97ae0b2505f95ec8defa77a2492d44f5b10f351a0a90a50758169a22
+  languageName: node
+  linkType: hard
+
+"@rokmohar/medusa-plugin-meilisearch@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@rokmohar/medusa-plugin-meilisearch@npm:0.1.1"
+  dependencies:
+    "@medusajs/modules-sdk": "npm:^2.0.1"
+    "@medusajs/utils": "npm:^2.0.1"
+    meilisearch: "npm:^0.45.0"
+  peerDependencies:
+    awilix: ^8.0.1
+  checksum: 10c0/db3888edb1c1feedd9560735baa28264a6f0765b65bcd050206e2e2c3e97d0f6e4c6dbfa07c71b8bb597ac9d48b7929adfd45ad2997f9c30ee5421945787da21
   languageName: node
   linkType: hard
 
@@ -12001,6 +12014,7 @@ __metadata:
     "@mikro-orm/knex": "npm:5.9.7"
     "@mikro-orm/migrations": "npm:5.9.7"
     "@mikro-orm/postgresql": "npm:5.9.7"
+    "@rokmohar/medusa-plugin-meilisearch": "npm:^0.1.1"
     "@swc/core": "npm:1.5.7"
     "@swc/jest": "npm:^0.2.36"
     "@types/jest": "npm:^29.5.13"
@@ -12018,6 +12032,13 @@ __metadata:
     vite: "npm:^5.2.11"
   languageName: unknown
   linkType: soft
+
+"meilisearch@npm:^0.45.0":
+  version: 0.45.0
+  resolution: "meilisearch@npm:0.45.0"
+  checksum: 10c0/5a4f6ac0d715ce3f826147e9cdc8b28abe6126757e47299f98dd233c7954213ff50c88183f4633a80aad723995b48507a35b57b94cc8447e1c329bd4887cc2b7
+  languageName: node
+  linkType: hard
 
 "merge-descriptors@npm:1.0.3":
   version: 1.0.3
