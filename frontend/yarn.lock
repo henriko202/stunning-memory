@@ -654,6 +654,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@medusajs/icons@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "@medusajs/icons@npm:2.0.4"
+  peerDependencies:
+    react: ^16.x || ^17.x || ^18.x
+  checksum: 72bc504da92f7c27b3b051791202b57327f49a8ccf2007abe56778dbf35595e249985b2531b1b74909a80b7201e9a2073e10488cbfea2ef6b0ef58bedb39a4ab
+  languageName: node
+  linkType: hard
+
 "@medusajs/js-sdk@npm:2.0.0":
   version: 2.0.0
   resolution: "@medusajs/js-sdk@npm:2.0.0"
@@ -665,7 +674,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/types@npm:2.0.0, @medusajs/types@npm:^2.0.0":
+"@medusajs/types@npm:^2.0.0":
   version: 2.0.0
   resolution: "@medusajs/types@npm:2.0.0"
   dependencies:
@@ -680,6 +689,24 @@ __metadata:
     vite:
       optional: true
   checksum: 45ba0e8d27c516d357aa64be41b87a397e67f86a0c39ad8c80842e9a305384237983ede1183f553e5f831281937b061e338cdd796fe1a95ce4975b5888ca7ba8
+  languageName: node
+  linkType: hard
+
+"@medusajs/types@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "@medusajs/types@npm:2.0.4"
+  dependencies:
+    bignumber.js: ^9.1.2
+  peerDependencies:
+    awilix: ^8.0.1
+    ioredis: ^5.4.1
+    vite: ^5.2.11
+  peerDependenciesMeta:
+    ioredis:
+      optional: true
+    vite:
+      optional: true
+  checksum: 41fa289be6dab5ac55061e39ec0eb5016987b6087162dbe19c6fab274d74f87897d3201347189e007d106f10d170359e05cd194d5d4c5fe47ef9c575e80f88ed
   languageName: node
   linkType: hard
 
@@ -959,7 +986,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-accordion@npm:^1.1.2":
+"@radix-ui/react-accordion@npm:^1.1.2, @radix-ui/react-accordion@npm:^1.2.1":
   version: 1.2.1
   resolution: "@radix-ui/react-accordion@npm:1.2.1"
   dependencies:
@@ -5644,14 +5671,16 @@ __metadata:
     "@babel/core": ^7.17.5
     "@headlessui/react": ^1.6.1
     "@hookform/error-message": ^2.0.0
+    "@medusajs/icons": ^2.0.4
     "@medusajs/js-sdk": 2.0.0
-    "@medusajs/types": 2.0.0
+    "@medusajs/types": ^2.0.4
     "@medusajs/ui": 2.0.0
     "@medusajs/ui-preset": 2.0.0
     "@meilisearch/instant-meilisearch": ^0.7.1
     "@paypal/paypal-js": ^5.0.6
     "@paypal/react-paypal-js": ^7.8.1
     "@playwright/test": ^1.41.1
+    "@radix-ui/react-accordion": ^1.2.1
     "@stripe/react-stripe-js": ^1.7.2
     "@stripe/stripe-js": ^1.29.0
     "@types/lodash": ^4.14.195
