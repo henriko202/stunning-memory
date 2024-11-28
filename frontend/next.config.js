@@ -16,7 +16,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "bucket-production-4ec8.up.railway.app",
+        hostname: "bucket-production-f2b8.up.railway.app",
       },
       {
         protocol: "https",
